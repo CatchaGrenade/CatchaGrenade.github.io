@@ -4229,14 +4229,14 @@ img.img-rotate,
 
 img.img-rotate:hover,
 .img-rotate:hover img {
-  transform: rotate(360deg);
+  transform: scale(1,1) rotate(180deg);
   -ms-transform: rotate(360deg);
   /* IE 9 */
   -moz-transform: rotate(360deg);
   /* Firefox */
-  -webkit-transform: rotate(360deg);
+  -webkit-transform: scale(1.5,1.5) rotate(360deg);
   /* Safari and Chrome */
-  -o-transform: rotate(360deg);
+  -o-transform: scale(1.5,1.5) rotate(360deg);
 }
 
 /*img-burn*/
